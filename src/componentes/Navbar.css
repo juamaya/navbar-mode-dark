@@ -1,0 +1,41 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #93efe0;
+    padding: 15px 7%;
+    z-index: 1;
+}
+.logo{
+    font-size: 2rem;
+    cursor: pointer;
+    color: blue;
+}
+ul{
+    flex: 1;
+    text-align: center;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .5s  ;
+    text-decoration: none;
+}
+ul li:hover{
+ color: blue;
+ font-weight: bold;
+ 
+}
+
+.toggle-icon{
+    width:60px;
+    cursor: pointer;
+}
+ 
+
